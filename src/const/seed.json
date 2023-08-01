@@ -1,0 +1,862 @@
+[
+  {
+    "tool": [
+      {
+        "id": "830823d5-0bf0-40e7-98de-ae305d11d6af",
+        "name": "Tool A",
+        "created_at": "2023-08-01T03:24:02.374Z",
+        "updated_at": "2023-07-31T20:50:23.284Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b57e484f-4917-45db-af02-4908e1cc7640",
+        "name": "Tool B",
+        "created_at": "2023-07-31T14:39:19.175Z",
+        "updated_at": "2023-07-31T13:37:16.518Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8e62e44a-0f00-4b64-86a3-9589364ee1f2",
+        "name": "Tool C",
+        "created_at": "2023-07-31T16:51:56.064Z",
+        "updated_at": "2023-08-01T09:48:01.522Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "80eeba81-18e7-45b3-93f6-6c3f8941b6e0",
+        "name": "Tool D",
+        "created_at": "2023-08-01T09:54:27.660Z",
+        "updated_at": "2023-08-01T08:15:35.621Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "05c6d70d-6d13-4ef9-81a7-369526743cf1",
+        "name": "Tool E",
+        "created_at": "2023-07-31T17:51:08.398Z",
+        "updated_at": "2023-08-01T07:13:59.574Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "b3d9559f-12dd-4ddc-82b7-fa1f177e0a68",
+        "start_date": "2023-08-01T06:37:48.636Z",
+        "end_date": "2023-07-31T20:25:11.217Z",
+        "created_at": "2023-07-31T16:59:57.072Z",
+        "updated_at": "2023-08-01T06:08:55.771Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "80eeba81-18e7-45b3-93f6-6c3f8941b6e0"
+      },
+      {
+        "id": "0bfcf6f3-f410-4f98-8f5e-cf9e37934a69",
+        "start_date": "2023-07-31T22:24:17.840Z",
+        "end_date": "2023-07-31T15:08:52.377Z",
+        "created_at": "2023-07-31T19:28:41.503Z",
+        "updated_at": "2023-07-31T20:18:32.746Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "80eeba81-18e7-45b3-93f6-6c3f8941b6e0"
+      },
+      {
+        "id": "8de87e9f-5a86-4bed-92ea-658f4ff6883a",
+        "start_date": "2023-07-31T13:21:48.280Z",
+        "end_date": "2023-07-31T11:26:53.770Z",
+        "created_at": "2023-08-01T03:54:55.553Z",
+        "updated_at": "2023-08-01T03:05:47.046Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "80eeba81-18e7-45b3-93f6-6c3f8941b6e0"
+      },
+      {
+        "id": "6faac3d1-ecdf-4cf4-b5cd-395011948b3d",
+        "start_date": "2023-08-01T02:38:28.157Z",
+        "end_date": "2023-07-31T20:53:24.059Z",
+        "created_at": "2023-08-01T02:27:14.723Z",
+        "updated_at": "2023-08-01T06:21:46.053Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "80eeba81-18e7-45b3-93f6-6c3f8941b6e0"
+      },
+      {
+        "id": "2c4b1eb7-4773-4592-8fc6-25f38924f117",
+        "start_date": "2023-08-01T05:51:33.239Z",
+        "end_date": "2023-07-31T18:12:53.262Z",
+        "created_at": "2023-07-31T17:14:36.931Z",
+        "updated_at": "2023-08-01T05:53:17.654Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "8e62e44a-0f00-4b64-86a3-9589364ee1f2"
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "4ac99297-8e16-4071-bd28-b383df26e7db",
+        "name": "Tool A",
+        "created_at": "2023-08-01T07:20:32.212Z",
+        "updated_at": "2023-07-31T10:00:26.759Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0fc6d6f8-a00a-4564-ae3e-8f3aeae8025d",
+        "name": "Tool B",
+        "created_at": "2023-07-31T10:53:13.871Z",
+        "updated_at": "2023-08-01T02:35:22.607Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d4e6faa1-c39d-4d23-912d-fcd200b13012",
+        "name": "Tool C",
+        "created_at": "2023-08-01T06:52:46.490Z",
+        "updated_at": "2023-07-31T11:33:37.018Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7f197968-a04f-4158-abe0-9eec867e53e5",
+        "name": "Tool D",
+        "created_at": "2023-08-01T01:03:41.087Z",
+        "updated_at": "2023-08-01T05:04:36.525Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d4acf41d-9f92-486c-bd6d-4deaad5b04ee",
+        "name": "Tool E",
+        "created_at": "2023-08-01T06:34:07.248Z",
+        "updated_at": "2023-08-01T02:51:56.864Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "950b49a4-6bc7-4b96-b8b3-bf0a58f2a8d1",
+        "start_date": "2023-08-01T05:18:07.599Z",
+        "end_date": "2023-07-31T21:18:40.326Z",
+        "created_at": "2023-07-31T20:28:36.518Z",
+        "updated_at": "2023-08-01T05:53:30.295Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "4ac99297-8e16-4071-bd28-b383df26e7db"
+      },
+      {
+        "id": "41fe8397-a9cb-4b68-9a4b-f6cfab2ccd6e",
+        "start_date": "2023-07-31T13:25:10.262Z",
+        "end_date": "2023-08-01T01:15:01.357Z",
+        "created_at": "2023-07-31T18:08:27.907Z",
+        "updated_at": "2023-07-31T19:17:17.460Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "4ac99297-8e16-4071-bd28-b383df26e7db"
+      },
+      {
+        "id": "75216de7-a944-4073-a552-aaa664d4f956",
+        "start_date": "2023-07-31T12:40:12.646Z",
+        "end_date": "2023-07-31T17:03:33.975Z",
+        "created_at": "2023-07-31T17:39:23.048Z",
+        "updated_at": "2023-07-31T11:11:10.615Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "0fc6d6f8-a00a-4564-ae3e-8f3aeae8025d"
+      },
+      {
+        "id": "9e3246dd-7e45-4f34-8750-ba715f2e797c",
+        "start_date": "2023-08-01T03:47:36.952Z",
+        "end_date": "2023-07-31T23:08:52.816Z",
+        "created_at": "2023-08-01T00:24:46.972Z",
+        "updated_at": "2023-07-31T23:00:08.806Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "7f197968-a04f-4158-abe0-9eec867e53e5"
+      },
+      {
+        "id": "08f98fc1-8341-45fb-b2c5-806187f4370b",
+        "start_date": "2023-08-01T03:15:25.787Z",
+        "end_date": "2023-07-31T14:26:16.097Z",
+        "created_at": "2023-08-01T00:41:53.286Z",
+        "updated_at": "2023-07-31T16:57:48.410Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "d4acf41d-9f92-486c-bd6d-4deaad5b04ee"
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "c0a3a1d8-d45d-4019-b987-b628f9e3c3a9",
+        "name": "Tool A",
+        "created_at": "2023-07-31T16:04:56.017Z",
+        "updated_at": "2023-07-31T10:15:25.217Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8cea2df7-a33e-4b2d-a8e8-bbdecdc620b2",
+        "name": "Tool B",
+        "created_at": "2023-08-01T02:46:13.644Z",
+        "updated_at": "2023-07-31T20:54:23.929Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0cd3ba6f-c7c6-4b19-98d9-ad78df51b67c",
+        "name": "Tool C",
+        "created_at": "2023-08-01T04:17:46.106Z",
+        "updated_at": "2023-08-01T06:59:03.783Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "74b54078-9fe4-401f-b7f5-3fc118e2a6a6",
+        "name": "Tool D",
+        "created_at": "2023-07-31T18:52:09.828Z",
+        "updated_at": "2023-08-01T01:43:42.173Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "689ba89d-d0b2-4450-9352-25fbb9516a65",
+        "name": "Tool E",
+        "created_at": "2023-08-01T05:06:03.909Z",
+        "updated_at": "2023-08-01T01:17:32.375Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "60a54307-dfa1-479b-90b1-05a1691cfa2e",
+        "start_date": "2023-07-31T14:34:21.815Z",
+        "end_date": "2023-07-31T16:19:29.031Z",
+        "created_at": "2023-08-01T09:23:55.249Z",
+        "updated_at": "2023-07-31T12:50:45.480Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "0cd3ba6f-c7c6-4b19-98d9-ad78df51b67c"
+      },
+      {
+        "id": "237c10dc-4ab8-4a9d-9ead-d7785cb9bfa6",
+        "start_date": "2023-07-31T20:54:23.782Z",
+        "end_date": "2023-07-31T13:01:05.304Z",
+        "created_at": "2023-07-31T23:49:52.459Z",
+        "updated_at": "2023-07-31T11:37:56.565Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "c0a3a1d8-d45d-4019-b987-b628f9e3c3a9"
+      },
+      {
+        "id": "cc0c8c97-509b-46ab-868f-676b56f8d620",
+        "start_date": "2023-07-31T17:37:16.610Z",
+        "end_date": "2023-07-31T21:39:25.067Z",
+        "created_at": "2023-08-01T07:32:27.937Z",
+        "updated_at": "2023-08-01T00:37:00.807Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "689ba89d-d0b2-4450-9352-25fbb9516a65"
+      },
+      {
+        "id": "968ac64c-c413-41c2-b18a-01ff88e2d2c3",
+        "start_date": "2023-08-01T00:37:41.898Z",
+        "end_date": "2023-07-31T17:11:24.091Z",
+        "created_at": "2023-07-31T16:35:54.354Z",
+        "updated_at": "2023-07-31T22:26:29.911Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "0cd3ba6f-c7c6-4b19-98d9-ad78df51b67c"
+      },
+      {
+        "id": "c1e4bd0e-ddd9-47b3-871c-901d65aafe59",
+        "start_date": "2023-08-01T02:18:18.219Z",
+        "end_date": "2023-08-01T00:31:33.359Z",
+        "created_at": "2023-07-31T21:59:13.920Z",
+        "updated_at": "2023-07-31T17:09:31.606Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "74b54078-9fe4-401f-b7f5-3fc118e2a6a6"
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "febf1ff6-3677-4f99-a6a5-11e650dd5b67",
+        "name": "Tool A",
+        "created_at": "2023-07-31T23:06:29.183Z",
+        "updated_at": "2023-08-01T00:15:53.102Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "05d13944-9655-4671-93e7-f7a73a960b66",
+        "name": "Tool B",
+        "created_at": "2023-07-31T12:55:44.226Z",
+        "updated_at": "2023-07-31T19:27:22.737Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dbe3e5ee-aec6-4e7b-a18f-3d9bee88a45b",
+        "name": "Tool C",
+        "created_at": "2023-08-01T05:19:26.598Z",
+        "updated_at": "2023-07-31T15:52:04.197Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7cbe4afe-4fd5-402a-8c67-54692d7b6068",
+        "name": "Tool D",
+        "created_at": "2023-07-31T23:20:39.849Z",
+        "updated_at": "2023-07-31T14:59:37.376Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d05b60a1-dc11-45db-9797-01ac384e9ec7",
+        "name": "Tool E",
+        "created_at": "2023-07-31T22:40:15.186Z",
+        "updated_at": "2023-08-01T00:20:09.818Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "a12a4e71-eafb-4200-b652-876a4ad25a05",
+        "start_date": "2023-07-31T12:56:14.015Z",
+        "end_date": "2023-08-01T04:51:27.465Z",
+        "created_at": "2023-07-31T13:02:28.376Z",
+        "updated_at": "2023-08-01T02:22:36.010Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "d05b60a1-dc11-45db-9797-01ac384e9ec7"
+      },
+      {
+        "id": "52ddbe4a-3960-4bdd-b39e-40434f47e874",
+        "start_date": "2023-07-31T10:23:18.558Z",
+        "end_date": "2023-08-01T01:32:24.979Z",
+        "created_at": "2023-07-31T17:36:33.572Z",
+        "updated_at": "2023-08-01T07:51:24.247Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "febf1ff6-3677-4f99-a6a5-11e650dd5b67"
+      },
+      {
+        "id": "091e4548-6004-4669-b052-2849ad7ab5a5",
+        "start_date": "2023-07-31T21:14:02.353Z",
+        "end_date": "2023-07-31T23:07:25.102Z",
+        "created_at": "2023-08-01T00:03:48.616Z",
+        "updated_at": "2023-07-31T19:18:28.456Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "d05b60a1-dc11-45db-9797-01ac384e9ec7"
+      },
+      {
+        "id": "46173868-6a04-48de-8c8f-04212c29b3d4",
+        "start_date": "2023-08-01T03:51:51.694Z",
+        "end_date": "2023-07-31T12:33:55.383Z",
+        "created_at": "2023-07-31T19:39:17.996Z",
+        "updated_at": "2023-08-01T08:53:55.522Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "05d13944-9655-4671-93e7-f7a73a960b66"
+      },
+      {
+        "id": "1c4a3a91-5c87-4b85-a3ee-713aeb6e4100",
+        "start_date": "2023-07-31T20:38:50.608Z",
+        "end_date": "2023-07-31T18:32:57.739Z",
+        "created_at": "2023-07-31T15:17:55.396Z",
+        "updated_at": "2023-08-01T06:28:00.895Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "d05b60a1-dc11-45db-9797-01ac384e9ec7"
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "6c53d6d1-5440-4c67-bb21-b301706afd15",
+        "name": "Tool A",
+        "created_at": "2023-07-31T22:00:56.332Z",
+        "updated_at": "2023-08-01T08:47:02.211Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "08c67ea7-7c65-481e-8c34-51c8cee5a8ac",
+        "name": "Tool B",
+        "created_at": "2023-07-31T22:22:13.405Z",
+        "updated_at": "2023-07-31T22:07:13.170Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0fa0c79f-e584-465e-bf93-af82ad60ec33",
+        "name": "Tool C",
+        "created_at": "2023-08-01T03:41:17.367Z",
+        "updated_at": "2023-07-31T15:16:13.269Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ca69ee68-28d7-4256-b730-f4cd1d3603d6",
+        "name": "Tool D",
+        "created_at": "2023-08-01T06:39:55.485Z",
+        "updated_at": "2023-07-31T21:10:27.382Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4dfdf511-fccf-4fd7-a790-65cc3cb53b88",
+        "name": "Tool E",
+        "created_at": "2023-08-01T02:09:57.595Z",
+        "updated_at": "2023-08-01T01:50:01.992Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "04d5f3a5-b31f-437d-92b5-8b22790297c9",
+        "start_date": "2023-07-31T20:08:38.997Z",
+        "end_date": "2023-07-31T14:31:02.876Z",
+        "created_at": "2023-07-31T20:57:38.945Z",
+        "updated_at": "2023-08-01T02:33:09.948Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "08c67ea7-7c65-481e-8c34-51c8cee5a8ac"
+      },
+      {
+        "id": "14d0211d-1fa6-400d-a05b-94f6da427b87",
+        "start_date": "2023-08-01T06:55:06.923Z",
+        "end_date": "2023-08-01T09:35:37.246Z",
+        "created_at": "2023-08-01T01:43:32.488Z",
+        "updated_at": "2023-07-31T18:03:59.464Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "ca69ee68-28d7-4256-b730-f4cd1d3603d6"
+      },
+      {
+        "id": "c5f64384-a55f-447f-a075-5e7308af12cd",
+        "start_date": "2023-08-01T04:13:47.871Z",
+        "end_date": "2023-07-31T11:15:46.618Z",
+        "created_at": "2023-08-01T04:11:23.670Z",
+        "updated_at": "2023-07-31T19:23:58.026Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "6c53d6d1-5440-4c67-bb21-b301706afd15"
+      },
+      {
+        "id": "7ed5892c-a5b9-432a-8273-89d04fb73418",
+        "start_date": "2023-07-31T13:37:05.185Z",
+        "end_date": "2023-07-31T17:18:25.499Z",
+        "created_at": "2023-07-31T13:54:57.724Z",
+        "updated_at": "2023-07-31T20:38:56.024Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "6c53d6d1-5440-4c67-bb21-b301706afd15"
+      },
+      {
+        "id": "8cc5ec43-3a06-4b03-b2f7-44bb0fc65e70",
+        "start_date": "2023-08-01T08:14:55.229Z",
+        "end_date": "2023-07-31T14:18:13.256Z",
+        "created_at": "2023-07-31T12:54:44.073Z",
+        "updated_at": "2023-08-01T02:03:13.628Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "4dfdf511-fccf-4fd7-a790-65cc3cb53b88"
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "7ed0d652-a063-41b9-8b2b-76c37726b122",
+        "name": "Tool A",
+        "created_at": "2023-08-01T04:08:33.247Z",
+        "updated_at": "2023-07-31T21:04:38.768Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "abff360d-fcbf-4b0e-8b93-861c0d8b391c",
+        "name": "Tool B",
+        "created_at": "2023-07-31T15:08:30.029Z",
+        "updated_at": "2023-07-31T15:31:45.802Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a24ffe01-21bb-43ca-a873-ea81c4044750",
+        "name": "Tool C",
+        "created_at": "2023-07-31T23:00:45.492Z",
+        "updated_at": "2023-07-31T23:34:52.570Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "31da0401-9ea1-4bb4-b7c3-fc60585e9f04",
+        "name": "Tool D",
+        "created_at": "2023-08-01T04:42:51.467Z",
+        "updated_at": "2023-07-31T14:29:53.849Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "47c970de-c248-4992-a16d-44465d2803e8",
+        "name": "Tool E",
+        "created_at": "2023-07-31T18:36:54.094Z",
+        "updated_at": "2023-08-01T09:16:34.139Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "0d2beb90-bcec-481d-9c15-9f0a615fe593",
+        "start_date": "2023-07-31T21:13:51.149Z",
+        "end_date": "2023-07-31T18:33:36.902Z",
+        "created_at": "2023-07-31T21:58:47.674Z",
+        "updated_at": "2023-07-31T19:54:23.684Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "7ed0d652-a063-41b9-8b2b-76c37726b122"
+      },
+      {
+        "id": "b66ba490-4228-4c8d-a7bb-02f5d1c4e195",
+        "start_date": "2023-08-01T05:41:37.313Z",
+        "end_date": "2023-07-31T23:22:15.611Z",
+        "created_at": "2023-07-31T12:43:10.596Z",
+        "updated_at": "2023-08-01T06:24:49.872Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "7ed0d652-a063-41b9-8b2b-76c37726b122"
+      },
+      {
+        "id": "368f9552-bc50-4faa-957f-3df220774e37",
+        "start_date": "2023-08-01T08:54:48.133Z",
+        "end_date": "2023-08-01T01:09:55.582Z",
+        "created_at": "2023-07-31T18:15:37.082Z",
+        "updated_at": "2023-08-01T06:17:07.708Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "47c970de-c248-4992-a16d-44465d2803e8"
+      },
+      {
+        "id": "f5577f2f-9141-4e04-a855-395fe4fcad5e",
+        "start_date": "2023-07-31T23:54:04.369Z",
+        "end_date": "2023-07-31T22:51:01.104Z",
+        "created_at": "2023-08-01T06:16:12.867Z",
+        "updated_at": "2023-08-01T00:49:07.271Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "47c970de-c248-4992-a16d-44465d2803e8"
+      },
+      {
+        "id": "0b982579-312e-474c-b67f-8b715992318f",
+        "start_date": "2023-07-31T12:45:09.199Z",
+        "end_date": "2023-08-01T09:48:07.201Z",
+        "created_at": "2023-07-31T13:54:28.549Z",
+        "updated_at": "2023-07-31T13:28:37.921Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "31da0401-9ea1-4bb4-b7c3-fc60585e9f04"
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "81515b96-5101-4714-be27-ab16f3b27b69",
+        "name": "Tool A",
+        "created_at": "2023-07-31T13:25:50.960Z",
+        "updated_at": "2023-07-31T18:32:42.441Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "eb8b82b2-b8c8-45e3-9e4b-ecae59936fc0",
+        "name": "Tool B",
+        "created_at": "2023-07-31T19:00:29.129Z",
+        "updated_at": "2023-08-01T09:46:29.445Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9c7935a5-f293-4934-80e9-e3835b982525",
+        "name": "Tool C",
+        "created_at": "2023-08-01T00:54:54.679Z",
+        "updated_at": "2023-08-01T01:16:26.633Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "674f29b7-87d1-48fd-9d4f-7b84dbe315d2",
+        "name": "Tool D",
+        "created_at": "2023-07-31T19:26:54.165Z",
+        "updated_at": "2023-07-31T17:20:32.111Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6803e87f-77ed-406d-b921-73c43300d516",
+        "name": "Tool E",
+        "created_at": "2023-07-31T16:55:37.455Z",
+        "updated_at": "2023-07-31T14:04:15.650Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "c14b9e8b-085a-4e84-8548-42752d3acbf3",
+        "start_date": "2023-07-31T20:12:04.962Z",
+        "end_date": "2023-07-31T23:44:11.548Z",
+        "created_at": "2023-07-31T22:12:37.326Z",
+        "updated_at": "2023-07-31T15:44:45.405Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "9c7935a5-f293-4934-80e9-e3835b982525"
+      },
+      {
+        "id": "9edc56ee-3e42-4534-9434-9e33fca38aaf",
+        "start_date": "2023-07-31T17:02:09.378Z",
+        "end_date": "2023-07-31T19:10:44.834Z",
+        "created_at": "2023-07-31T23:20:01.793Z",
+        "updated_at": "2023-07-31T17:18:51.642Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "9c7935a5-f293-4934-80e9-e3835b982525"
+      },
+      {
+        "id": "3285e968-86d9-48b5-bc6f-08e162db1e49",
+        "start_date": "2023-07-31T10:39:21.788Z",
+        "end_date": "2023-07-31T10:50:04.407Z",
+        "created_at": "2023-07-31T13:04:49.081Z",
+        "updated_at": "2023-07-31T19:54:30.041Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "6803e87f-77ed-406d-b921-73c43300d516"
+      },
+      {
+        "id": "811d5401-95cc-4418-ab14-89c2c9344f9b",
+        "start_date": "2023-07-31T18:24:20.815Z",
+        "end_date": "2023-07-31T14:23:04.733Z",
+        "created_at": "2023-07-31T21:13:16.601Z",
+        "updated_at": "2023-08-01T03:43:08.857Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "81515b96-5101-4714-be27-ab16f3b27b69"
+      },
+      {
+        "id": "07d93f0a-cf21-4f5c-884a-808fe4fb14a5",
+        "start_date": "2023-07-31T16:42:14.274Z",
+        "end_date": "2023-07-31T21:58:11.588Z",
+        "created_at": "2023-08-01T04:53:51.460Z",
+        "updated_at": "2023-07-31T11:09:04.800Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "9c7935a5-f293-4934-80e9-e3835b982525"
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "3e6d4d69-b8db-4447-94f0-2b87a2ea42cf",
+        "name": "Tool A",
+        "created_at": "2023-07-31T18:02:00.255Z",
+        "updated_at": "2023-08-01T05:24:07.758Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8c3e0e65-8eac-47a5-9a7b-5236cacb0f21",
+        "name": "Tool B",
+        "created_at": "2023-08-01T05:52:39.655Z",
+        "updated_at": "2023-07-31T12:02:00.868Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "53125ee9-1a53-49cc-b484-ebca9eee2c60",
+        "name": "Tool C",
+        "created_at": "2023-07-31T22:30:57.120Z",
+        "updated_at": "2023-08-01T09:52:29.695Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "79dd828b-710b-4d7c-a55a-9145e246b99f",
+        "name": "Tool D",
+        "created_at": "2023-08-01T04:22:15.122Z",
+        "updated_at": "2023-07-31T13:32:05.901Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6885a5cb-da94-4701-822d-6068ea0d3e54",
+        "name": "Tool E",
+        "created_at": "2023-08-01T09:45:59.266Z",
+        "updated_at": "2023-07-31T12:24:40.413Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "4ec6b0a5-ee4c-409f-86a4-2a01bc4b10ae",
+        "start_date": "2023-07-31T13:31:26.160Z",
+        "end_date": "2023-08-01T00:01:07.377Z",
+        "created_at": "2023-08-01T00:23:13.038Z",
+        "updated_at": "2023-07-31T20:40:52.912Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "79dd828b-710b-4d7c-a55a-9145e246b99f"
+      },
+      {
+        "id": "7cc1841c-2902-4f59-a5d4-6502f9851fc5",
+        "start_date": "2023-07-31T11:26:09.263Z",
+        "end_date": "2023-07-31T21:33:56.176Z",
+        "created_at": "2023-07-31T17:56:50.823Z",
+        "updated_at": "2023-07-31T10:07:11.922Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "53125ee9-1a53-49cc-b484-ebca9eee2c60"
+      },
+      {
+        "id": "33cbd334-c09d-4437-824b-ebf93e2c5467",
+        "start_date": "2023-08-01T08:47:24.691Z",
+        "end_date": "2023-07-31T19:43:46.057Z",
+        "created_at": "2023-08-01T06:15:26.685Z",
+        "updated_at": "2023-07-31T23:01:20.559Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "79dd828b-710b-4d7c-a55a-9145e246b99f"
+      },
+      {
+        "id": "2d9f6409-10cf-45e5-afa8-7dbf0c6453c0",
+        "start_date": "2023-07-31T18:27:17.514Z",
+        "end_date": "2023-07-31T17:18:04.590Z",
+        "created_at": "2023-07-31T12:07:10.329Z",
+        "updated_at": "2023-08-01T06:26:14.311Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "8c3e0e65-8eac-47a5-9a7b-5236cacb0f21"
+      },
+      {
+        "id": "573f3c12-aa06-45ed-b860-7d06dab6eea3",
+        "start_date": "2023-07-31T10:04:27.134Z",
+        "end_date": "2023-08-01T03:24:44.930Z",
+        "created_at": "2023-07-31T18:58:41.937Z",
+        "updated_at": "2023-08-01T07:15:36.377Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "3e6d4d69-b8db-4447-94f0-2b87a2ea42cf"
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "acb5f04e-d464-4263-a9ad-5aaa52220a03",
+        "name": "Tool A",
+        "created_at": "2023-08-01T00:42:24.988Z",
+        "updated_at": "2023-08-01T02:32:04.266Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "30bc79f9-7529-49a5-beff-7ab9347f927d",
+        "name": "Tool B",
+        "created_at": "2023-08-01T02:19:57.857Z",
+        "updated_at": "2023-07-31T18:12:49.423Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b6943596-76dc-4bd8-a626-47d5282b1355",
+        "name": "Tool C",
+        "created_at": "2023-08-01T01:30:43.094Z",
+        "updated_at": "2023-07-31T11:14:29.132Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fabd8376-3d3d-4f79-b67a-339f3abc6d2d",
+        "name": "Tool D",
+        "created_at": "2023-07-31T22:27:27.485Z",
+        "updated_at": "2023-07-31T19:43:44.101Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ffa29a52-1584-4323-ad2b-9546b037afa8",
+        "name": "Tool E",
+        "created_at": "2023-07-31T17:19:10.608Z",
+        "updated_at": "2023-08-01T05:51:19.024Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "1df03fea-46d9-4706-b0f2-3404c7ffa4bf",
+        "start_date": "2023-07-31T14:23:07.777Z",
+        "end_date": "2023-07-31T14:16:12.744Z",
+        "created_at": "2023-08-01T05:27:10.624Z",
+        "updated_at": "2023-08-01T07:12:46.501Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "ffa29a52-1584-4323-ad2b-9546b037afa8"
+      },
+      {
+        "id": "d5b9f815-e68f-43b5-9cd6-da1ea9a78dcf",
+        "start_date": "2023-08-01T09:05:54.315Z",
+        "end_date": "2023-07-31T23:39:43.246Z",
+        "created_at": "2023-08-01T02:03:05.099Z",
+        "updated_at": "2023-07-31T12:10:23.231Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "b6943596-76dc-4bd8-a626-47d5282b1355"
+      },
+      {
+        "id": "84711f60-78a5-416f-88c4-0ffca79d28c4",
+        "start_date": "2023-07-31T18:31:19.036Z",
+        "end_date": "2023-07-31T11:19:12.926Z",
+        "created_at": "2023-08-01T05:20:14.769Z",
+        "updated_at": "2023-07-31T19:27:47.721Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "30bc79f9-7529-49a5-beff-7ab9347f927d"
+      },
+      {
+        "id": "138b281a-ebc7-4337-9f75-236279c288c7",
+        "start_date": "2023-07-31T11:25:06.572Z",
+        "end_date": "2023-07-31T23:19:34.986Z",
+        "created_at": "2023-08-01T03:29:06.299Z",
+        "updated_at": "2023-07-31T17:46:39.289Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "ffa29a52-1584-4323-ad2b-9546b037afa8"
+      },
+      {
+        "id": "b21d445b-e4eb-462e-8d9a-abbc35ed964d",
+        "start_date": "2023-08-01T09:22:42.141Z",
+        "end_date": "2023-07-31T15:51:08.508Z",
+        "created_at": "2023-07-31T23:45:51.851Z",
+        "updated_at": "2023-08-01T07:49:15.381Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "b6943596-76dc-4bd8-a626-47d5282b1355"
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "8c13c306-a108-4511-a9db-3b8a7fba9180",
+        "name": "Tool A",
+        "created_at": "2023-08-01T05:37:47.454Z",
+        "updated_at": "2023-07-31T19:58:03.291Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1f2ec12c-7430-4685-b08d-0fb31bfe3c6f",
+        "name": "Tool B",
+        "created_at": "2023-07-31T19:23:26.701Z",
+        "updated_at": "2023-07-31T16:50:20.966Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0870e581-b3e6-4256-8706-3b25d0213006",
+        "name": "Tool C",
+        "created_at": "2023-08-01T07:58:42.591Z",
+        "updated_at": "2023-07-31T13:02:18.714Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7c13c949-b32b-47a5-9614-f29c9ae12b70",
+        "name": "Tool D",
+        "created_at": "2023-07-31T23:21:39.430Z",
+        "updated_at": "2023-07-31T17:59:22.185Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "089c55cf-c473-4183-acf0-2212ef5f268b",
+        "name": "Tool E",
+        "created_at": "2023-08-01T08:21:02.542Z",
+        "updated_at": "2023-08-01T02:28:35.367Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "d0b93b41-9c1c-4558-9dfc-00d84b43ec4d",
+        "start_date": "2023-08-01T00:11:45.918Z",
+        "end_date": "2023-07-31T21:01:24.953Z",
+        "created_at": "2023-07-31T23:04:05.873Z",
+        "updated_at": "2023-07-31T21:27:10.173Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "089c55cf-c473-4183-acf0-2212ef5f268b"
+      },
+      {
+        "id": "644c04e7-e066-4b56-9b5a-957c21c95a0e",
+        "start_date": "2023-08-01T00:13:13.144Z",
+        "end_date": "2023-08-01T07:38:15.420Z",
+        "created_at": "2023-07-31T13:41:14.299Z",
+        "updated_at": "2023-08-01T07:46:08.444Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "8c13c306-a108-4511-a9db-3b8a7fba9180"
+      },
+      {
+        "id": "3306a6ba-6eab-4b88-abfc-f332fa07c668",
+        "start_date": "2023-07-31T22:28:28.150Z",
+        "end_date": "2023-07-31T19:34:15.360Z",
+        "created_at": "2023-07-31T10:25:47.564Z",
+        "updated_at": "2023-08-01T03:08:50.131Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "0870e581-b3e6-4256-8706-3b25d0213006"
+      },
+      {
+        "id": "5bef35d6-d72b-4ab2-b4c8-558baf21370b",
+        "start_date": "2023-08-01T00:37:57.673Z",
+        "end_date": "2023-08-01T02:33:05.392Z",
+        "created_at": "2023-07-31T14:14:47.840Z",
+        "updated_at": "2023-08-01T01:48:40.307Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "7c13c949-b32b-47a5-9614-f29c9ae12b70"
+      },
+      {
+        "id": "98048693-6b81-4055-86f1-dd6da0309ec6",
+        "start_date": "2023-07-31T21:28:43.539Z",
+        "end_date": "2023-08-01T00:21:48.408Z",
+        "created_at": "2023-07-31T11:33:21.854Z",
+        "updated_at": "2023-08-01T01:22:31.877Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "7c13c949-b32b-47a5-9614-f29c9ae12b70"
+      }
+    ]
+  }
+]
